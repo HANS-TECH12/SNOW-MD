@@ -5,7 +5,7 @@ function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "SNOW~MD~",
+SESSION_ID: process.env.SESSION_ID || "SNOW~MD~uYsWQKDT#Aqi61w_lcGT3kHy8AZlSu_GxwANWM2BpY8Cvb4Xt9kY",
 // add your Session Id 
 AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN || "false",
 // make true or false status auto seen
@@ -53,7 +53,7 @@ AUTO_REACT: process.env.AUTO_REACT || "false",
 // make this true or false for auto react on all msgs
 ANTI_BAD: process.env.ANTI_BAD || "false",
 // false or true for anti bad words  
-MODE: process.env.MODE || "public",
+MODE: process.env.MODE || "private",
 // make bot public-private-inbox-group 
 ANTI_LINK_KICK: process.env.ANTI_LINK_KICK || "false",
 // make anti link true,false for groups 
@@ -73,7 +73,7 @@ READ_CMD: process.env.READ_CMD || "false",
 // true if want mark commands as read 
 DEV: process.env.DEV || "50949100359",
 //replace with your whatsapp number        
-ANTI_VV: process.env.ANTI_VV || "true",
+ANTI_VV: process.env.ANTI_VV || "false",
 // true for anti once view 
 ANTI_DEL_PATH: process.env.ANTI_DEL_PATH || "log", 
 // change it to 'same' if you want to resend deleted message in same chat 
